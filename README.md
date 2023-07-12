@@ -1,24 +1,5 @@
-# README
+# GraphQL Datadog Integration error
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a sample app attempting to instrument the GraphQL integration with Datadog.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+After running ```bundle install``` and ```rails server```, the following error gets produced: ```uninitialized constant GraphqlAppSchema (NameError)```
